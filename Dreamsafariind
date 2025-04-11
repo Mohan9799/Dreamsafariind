@@ -1,0 +1,249 @@
+<!-- Folder Structure:
+- index.html (Home)
+- about.html
+- tours.html
+- contact.html
+- booking.html
+- style.css
+- assets/
+-->
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DreamSafariInd - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DreamSafariInd</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tours.html">Tours</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="booking.html">Booking</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Experience the Royal Journey of Rajasthan</h2>
+    <img src="assets/camel-walk.gif" alt="Camel Animation">
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DreamSafariInd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - DreamSafariInd</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tours.html">Tours</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="booking.html">Booking</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Our Story</h2>
+    <p>DreamSafariInd is a Rajasthan-based travel agency offering royal-themed group tours. Connected with MS Travels, we bring years of local expertise and family legacy into crafting unforgettable journeys.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DreamSafariInd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!-- tours.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tours - DreamSafariInd</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Our Tours</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tours.html">Tours</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="booking.html">Booking</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Popular Group Tours</h2>
+    <ul>
+      <li>Royal Rajasthan Circuit (Jaipur, Jodhpur, Udaipur)</li>
+      <li>Desert Safari in Jaisalmer</li>
+      <li>Cultural Trails (Pushkar, Bikaner)</li>
+      <li>Customizable Heritage Tours</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DreamSafariInd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - DreamSafariInd</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tours.html">Tours</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="booking.html">Booking</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <p>Email: mohanrathore21881@gmail.com</p>
+    <p>Phone: 6378853836</p>
+    <p>WhatsApp: 8114417710</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DreamSafariInd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!-- booking.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking - DreamSafariInd</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Book Your Tour</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tours.html">Tours</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="booking.html">Booking</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="destination">Destination:</label>
+      <input type="text" id="destination" name="destination" required>
+
+      <label for="date">Date of Travel:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="people">No. of People:</label>
+      <input type="number" id="people" name="people" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DreamSafariInd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!-- style.css -->
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+  color: #4b2e2e;
+}
+
+header {
+  background-color: #d4af37;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.hero, .content {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero img {
+  max-width: 300px;
+  margin-top: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 1rem;
+}
+
+input, button, label {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f4e2d8;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
